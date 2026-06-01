@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Grace Joachim - Data Scientist & Analyst Portfolio',
   description: 'Portfolio of Grace Joachim, Data Scientist specializing in SQL, analytics, data visualization, and turning data into insights.',
-  author: 'Grace Joachim',
+  authors: ['Grace Joachim'],
 }
 
 export default function RootLayout({
