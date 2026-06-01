@@ -373,7 +373,7 @@ export default function Home() {
             <div className="mx-auto flex max-w-3xl flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
               <p>Grace Joachim © {currentYear}</p>
               <div className="inline-flex items-center justify-center gap-4">
-                <a href="https://www.linkedin.com/in/gracejoachim" target="_blank" rel="noopener noreferrer" className="text-slate-700 transition hover:text-orange-500 dark:text-slate-300">
+                <a href="https://www.linkedin.com/in/grace-joachim-213090300" target="_blank" rel="noopener noreferrer" className="text-slate-700 transition hover:text-orange-500 dark:text-slate-300">
                   LinkedIn
                 </a>
                 <a href="https://github.com/GraceJoachim" target="_blank" rel="noopener noreferrer" className="text-slate-700 transition hover:text-orange-500 dark:text-slate-300">
