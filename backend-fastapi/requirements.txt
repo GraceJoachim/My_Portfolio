@@ -1,4 +1,6 @@
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
-pydantic==2.5.0
+# Pin pydantic to a stable release with prebuilt wheels to avoid pydantic-core build failures on deploy
+# If your host provides Rust toolchain, you can upgrade this back to latest.
+pydantic==2.4.1
