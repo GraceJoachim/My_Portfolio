@@ -2,7 +2,7 @@ services:
   - type: web
     name: portfolio-backend
     env: docker
-    dockerfilePath: backend-fastapi/Dockerfile
+    dockerfilePath: Dockerfile
     plan: free
     # Render will build the Docker image using the Dockerfile; runtime PORT is passed by env
     envVars:
