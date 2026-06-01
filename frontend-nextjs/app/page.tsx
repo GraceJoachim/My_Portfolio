@@ -379,7 +379,7 @@ export default function Home() {
                 <a href="https://github.com/GraceJoachim" target="_blank" rel="noopener noreferrer" className="text-slate-700 transition hover:text-orange-500 dark:text-slate-300">
                   GitHub
                 </a>
-                <a href="https://instagram.com/gracejoachim" target="_blank" rel="noopener noreferrer" className="text-slate-700 transition hover:text-orange-500 dark:text-slate-300">
+                <a href="https://www.instagram.com/g.e.e__j.a.y/" target="_blank" rel="noopener noreferrer" className="text-slate-700 transition hover:text-orange-500 dark:text-slate-300">
                   Instagram
                 </a>
               </div>
