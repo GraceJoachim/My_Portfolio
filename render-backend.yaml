@@ -2,8 +2,11 @@ services:
   - type: web
     name: portfolio-backend
     env: python
+    # Request a Python runtime with prebuilt wheels for pydantic-core (3.11 is recommended)
+    pythonVersion: 3.11
     plan: free
-    buildCommand: pip install -r requirements.txt
+    # Upgrade pip first so it can find and install modern wheels, then install requirements
+    buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PORT
